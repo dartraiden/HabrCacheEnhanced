@@ -6,7 +6,7 @@
 // @include         http://geektimes.ru/*
 // @include         http://habrahabr.ru/*
 // @include         http://megamozg.ru/*
-// @updateURL       https://github.com/dartraiden/HabrCacheEnchanced/raw/master/HabrCache.meta.js
-// @downloadURL     https://github.com/dartraiden/HabrCacheEnchanced/raw/master/HabrCache.user.js
+// @updateURL       https://github.com/dartraiden/HabrCacheEnchanced/raw/master/HabrCacheEnchanced.meta.js
+// @downloadURL     https://github.com/dartraiden/HabrCacheEnchanced/raw/master/HabrCacheEnchanced.user.js
 // @supportURL      https://github.com/dartraiden/HabrCacheEnchanced/issues
 // ==/UserScript==
