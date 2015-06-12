@@ -1,6 +1,6 @@
 ﻿// ==UserScript==
 // @name            HabrCacheEnchanced
-// @description     Редиректит удалённые или скрытые в черновики записи на кэш гугла
+// @description     Перенаправляет удалённые или скрытые в черновики записи на кэш гугла
 // @namespace       habrcache
 // @version         20150610.1
 // @include         http://geektimes.ru/*
