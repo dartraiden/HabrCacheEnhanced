@@ -2,7 +2,7 @@
 // @name            HabrCacheEnchanced
 // @description     Перенаправляет удалённые или скрытые в черновики записи на кэш гугла
 // @namespace       habrcache
-// @version         20150612.1
+// @version         20150623.1
 // @include         http://geektimes.ru/*
 // @include         http://habrahabr.ru/*
 // @include         http://megamozg.ru/*
@@ -11,8 +11,8 @@
 // @supportURL      https://github.com/dartraiden/HabrCacheEnchanced/issues
 // ==/UserScript==
 
-var h1 = document.querySelector("h1,.page404 .state");
-if(h1.innerHTML == "Доступ к публикации закрыт" || h1.innerHTML == "слетайте на другие наши планеты"){
+var h1 = document.querySelector("h1,.page404 .state,.info .state");
+if(h1.innerHTML == "Доступ к публикации закрыт" || h1.innerHTML == "слетайте на другие наши планеты" || h1.innerHTML == "прекратила активность на хабре"){
 	var link = "http://webcache.googleusercontent.com/search?q=cache:" + window.location;
 	if(history.length <= 1){
 		window.location = link;
