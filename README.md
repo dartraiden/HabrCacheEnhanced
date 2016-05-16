@@ -7,4 +7,4 @@
 
 * запись, скрытая в черновики: [geektimes](http://geektimes.ru/post/269660/), [habrahabr](http://habrahabr.ru/post/161695/)
 * запись, удалённая из блога компании: [geektimes](http://geektimes.ru/company/ua-hosting/blog/251006/), [habrahabr](http://habrahabr.ru/company/muk/blog/255299/)
-* удалённый блог компании, прекратившей деятельность на ресурсе: [habrahabr](http://habrahabr.ru/company/unity3d/blog/)
+* удалённый блог компании, прекратившей деятельность на ресурсе: [habrahabr](https://habrahabr.ru/company/teradata/blog/)
