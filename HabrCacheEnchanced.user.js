@@ -14,7 +14,7 @@
 
 var h1 = document.querySelector("h1,.info .state");
 if(h1.innerHTML == "Доступ к публикации закрыт" || h1.innerHTML == "Страница не найдена" || h1.innerHTML == "прекратила активность на хабре"){
-	var link = "http://webcache.googleusercontent.com/search?q=cache:" + window.location;
+	var link = "https://webcache.googleusercontent.com/search?q=cache:" + window.location;
 	if(history.length <= 1){
 		window.location = link;
 	}else{
