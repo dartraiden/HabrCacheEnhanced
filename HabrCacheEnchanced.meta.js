@@ -2,7 +2,7 @@
 // @name            HabrCacheEnchanced
 // @description     Перенаправляет удалённые или скрытые в черновики записи на кэш гугла
 // @namespace       habrcache
-// @version         20160516.2
+// @version         20171116.1
 // @include         https://geektimes.ru/*
 // @include         http://geektimes.ru/*
 // @include         https://habrahabr.ru/*
