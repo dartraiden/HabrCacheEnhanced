@@ -1,6 +1,6 @@
 ﻿// ==UserScript==
 // @name            HabrCacheEnchanced
-// @description     Перенаправляет удалённые или скрытые в черновики записи на кэш гугла
+// @description     Перенаправляет удалённые или скрытые в черновики записи с habr.com на кэш Google
 // @namespace       habrcache
 // @version         20180424.1
 // @include         https://habr.com/*
