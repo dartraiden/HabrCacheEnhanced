@@ -15,6 +15,6 @@ if(h1.innerHTML == "Доступ к публикации закрыт" || h1.inn
 	var lnks = document.getElementsByTagName('A');
 	for (var i = 0; i < lnks.length; ++i) {
 		if (lnks[i].className == 'button')
-			lnks[i].outerHTML += '<p><a href="http://sohabr.ru/' + habr + '/post/' + id + '/">СоХабр</a></p><p><a href="http://webcache.googleusercontent.com/search?q=cache:' + document.location.href + '">Гуглокэш</a></p>';
+			lnks[i].outerHTML += '<p><a href="https://sohabr.net/' + habr + '/post/' + id + '/">СоХабр</a></p><p><a href="https://webcache.googleusercontent.com/search?q=cache:' + document.location.href + '">Google Cache</a></p>';
 	}
 }
