@@ -11,6 +11,15 @@
 
 var h1 = document.querySelector("h1,.info .state");
 if(h1.innerHTML == "Доступ к публикации закрыт" || h1.innerHTML == "Страница не найдена" || h1.innerHTML == "прекратила активность на хабре"){
-	var link = "https://webcache.googleusercontent.com/search?q=cache:" + window.location;
-	window.location = link;
+	var id = document.location.href.replace(/^.*\/(\d+)\/$/, '$1');
+	var type;
+	if (document.location.href.indexOf('habrahabr.ru') > 0)
+		type = 'habr';
+	else if (document.location.href.indexOf('geektimes.ru') > 0)
+		type = 'gt';
+	var lnks = document.getElementsByTagName('A');
+	for (var i = 0; i < lnks.length; ++i) {
+		if (lnks[i].className == 'button')
+			lnks[i].outerHTML += '<p><a href="http://sohabr.ru/' + type + '/post/' + id + '/">СоХабр</a></p><p><a href="http://webcache.googleusercontent.com/search?q=cache:' + document.location.href + '">Гуглокэш</a></p>';
+	}
 }
