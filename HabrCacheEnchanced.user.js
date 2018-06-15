@@ -2,7 +2,7 @@
 // @name            HabrCacheEnchanced
 // @description     Перенаправляет удалённые или скрытые в черновики записи с habr.com на СоХабр и кэш Google
 // @namespace       habrcache
-// @version         20180613.1
+// @version         20180615.1
 // @include         https://habr.com/*
 // @updateURL       https://github.com/dartraiden/HabrCacheEnchanced/raw/master/HabrCacheEnchanced.meta.js
 // @downloadURL     https://github.com/dartraiden/HabrCacheEnchanced/raw/master/HabrCacheEnchanced.user.js
@@ -15,7 +15,7 @@ if(h1.innerHTML == "Доступ к публикации закрыт" || h1.inn
 	var lnks = document.getElementsByTagName('A');
 	for (var i = 0; i < lnks.length; ++i) {
 		if (lnks[i].className == 'button')
-			lnks[i].outerHTML += '<p><a href="https://sohabr.net/' + 'habr' + '/post/' + id + '/">СоХабр</a></p><p><a href="https://webcache.googleusercontent.com/search?q=cache:' + document.location.href + '">Google Cache</a></p>';
+			lnks[i].outerHTML += '<p>&bull; <a href="https://sohabr.net/' + 'habr' + '/post/' + id + '/">СоХабр</a></p><p>&bull; <a href="https://webcache.googleusercontent.com/search?q=cache:' + document.location.href + '">Google Cache</a></p>';
 	}
 }
 else if(h1.innerHTML == "прекратила активность на хабре"){
