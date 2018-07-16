@@ -2,7 +2,7 @@
 // @name            HabrCacheEnhanced
 // @description     Перенаправляет удалённые или скрытые в черновики записи с habr.com на СоХабр и кэш Google
 // @namespace       habrcache
-// @version         20180615.1
+// @version         20180717.1
 // @include         https://habr.com/*
 // @updateURL       https://github.com/dartraiden/HabrCacheEnhanced/raw/master/HabrCacheEnhanced.meta.js
 // @downloadURL     https://github.com/dartraiden/HabrCacheEnhanced/raw/master/HabrCacheEnhanced.user.js

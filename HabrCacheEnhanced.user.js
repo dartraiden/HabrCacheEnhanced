@@ -2,7 +2,7 @@
 // @name            HabrCacheEnhanced
 // @description     Перенаправляет удалённые или скрытые в черновики записи с habr.com на СоХабр и кэш Google
 // @namespace       habrcache
-// @version         20180615.1
+// @version         20180717.1
 // @include         https://habr.com/*
 // @updateURL       https://github.com/dartraiden/HabrCacheEnhanced/raw/master/HabrCacheEnhanced.meta.js
 // @downloadURL     https://github.com/dartraiden/HabrCacheEnhanced/raw/master/HabrCacheEnhanced.user.js
@@ -11,7 +11,7 @@
 
 var h1 = document.querySelector("h1,.info .state");
 if(h1.innerHTML == "Доступ к публикации закрыт" || h1.innerHTML == "Страница не найдена"){
-	var id = document.location.href.replace(/^.*\/(\d+)\/$/, '$1');
+	var id = document.location.href.replace(/^.*\/(\d+)\/?.+/, '$1');
 	var lnks = document.getElementsByTagName('A');
 	for (var i = 0; i < lnks.length; ++i) {
 		if (lnks[i].className == 'button')
@@ -22,3 +22,7 @@ else if(h1.innerHTML == "прекратила активность на хабр
 	var link = "https://webcache.googleusercontent.com/search?q=cache:" + window.location;
 	window.location = link
 }
+
+
+(/^.*\/(\d+)\/?.+/, '$1');
+(/^.*\/(\d+)\/*.+/, '$1');
