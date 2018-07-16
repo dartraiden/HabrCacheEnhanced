@@ -1,4 +1,4 @@
-# HabrCache
+# HabrCacheEnhanced
 Перенаправляет удалённые или скрытые в черновики записи с habr.com на СоХабр и кэш Google.
 
 Основан на скрипте [HabrCache](https://userscripts-mirror.org/scripts/show/136481) от [dotneter](https://userscripts-mirror.org/users/138395.html). Код для работы с СоХабром любезно предоставлен [CaptainFlint](https://habr.com/users/CaptainFlint/).
