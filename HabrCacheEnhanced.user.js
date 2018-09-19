@@ -23,7 +23,3 @@ else if(h1.innerHTML == "прекратила активность на хабр
 	var link = "https://webcache.googleusercontent.com/search?q=cache:" + window.location;
 	window.location = link
 }
-
-
-(/^.*\/(\d+)\/?.+/, '$1');
-(/^.*\/(\d+)\/*.+/, '$1');
