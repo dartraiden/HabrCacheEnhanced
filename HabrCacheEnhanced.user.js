@@ -2,8 +2,8 @@
 // @name            HabrCacheEnhanced
 // @description     Перенаправляет удалённые или скрытые в черновики записи с habr.com на СоХабр и кэш Google
 // @namespace       habrcache
-// @version         20180717.1
-// @author			dartraiden
+// @version         20180919.1
+// @author          dartraiden
 // @include         https://habr.com/*
 // @updateURL       https://github.com/dartraiden/HabrCacheEnhanced/raw/master/HabrCacheEnhanced.meta.js
 // @downloadURL     https://github.com/dartraiden/HabrCacheEnhanced/raw/master/HabrCacheEnhanced.user.js
@@ -16,7 +16,7 @@ if(h1.innerHTML == "Доступ к публикации закрыт" || h1.inn
 	var lnks = document.getElementsByTagName('A');
 	for (var i = 0; i < lnks.length; ++i) {
 		if (lnks[i].className == 'button')
-			lnks[i].outerHTML += '<p>&bull; <a href="https://sohabr.net/habr/post/' + id + '/">СоХабр</a></p><p>&bull; <a href="https://webcache.googleusercontent.com/search?q=cache:' + document.location.href + '">Google Cache</a></p>';
+			lnks[i].outerHTML += '<p>&bull; <a href="https://sohabr.net/habr/post/' + id + '/">СоХабр (Хабрахабр, Geektimes, Мегамозг)</a></p><p>&bull; <a href="https://itnan.ru/post.php?c=1&p=' + id + '">ITnan (только Хабрахабр)</a></p><p>&bull; <a href="https://webcache.googleusercontent.com/search?q=cache:' + document.location.href + '">Google Cache</a></p>';
 	}
 }
 else if(h1.innerHTML == "прекратила активность на хабре"){
