@@ -4,7 +4,7 @@
 // @namespace       habrcache
 // @version         20180919.1
 // @author          dartraiden
-// @include         https://habr.com/*
+// @match           https://habr.com/*
 // @updateURL       https://github.com/dartraiden/HabrCacheEnhanced/raw/master/HabrCacheEnhanced.meta.js
 // @downloadURL     https://github.com/dartraiden/HabrCacheEnhanced/raw/master/HabrCacheEnhanced.user.js
 // @supportURL      https://github.com/dartraiden/HabrCacheEnhanced/issues
