@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name            HabrCacheEnhanced
-// @description     Перенаправляет удалённые или скрытые в черновики записи с habr.com на СоХабр, ITnan и кэш Google
+// @description     Перенаправляет удалённые или скрытые в черновики записи с habr.com на СоХабр, ITnan и кэш Google. Redirects deleted or hidden posts from habr.com to SoHabr, ITnan and Google cache.
 // @namespace       habrcache
-// @version         20180919.1
+// @version         20190126.1
 // @author          dartraiden
 // @match           https://habr.com/*
 // @updateURL       https://github.com/dartraiden/HabrCacheEnhanced/raw/master/HabrCacheEnhanced.meta.js
