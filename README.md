@@ -1,5 +1,5 @@
 # Russian
-Перенаправляет удалённые или скрытые в черновики записи с habr.com на СоХабр, ITnan и кэш Google.
+Перенаправляет удалённые или скрытые в черновики записи с habr.com на ITnan, СоХабр, SavePearlHarbor и кэш Google.
 
 Основан на скрипте [HabrCache](https://userscripts-mirror.org/scripts/show/136481) от [dotneter](https://userscripts-mirror.org/users/138395.html). Код для работы с СоХабром любезно предоставлен [CaptainFlint](https://habr.com/users/CaptainFlint/).
 
@@ -13,7 +13,7 @@
 
 
 # English
-Redirects deleted or marked as draft posts from habr.com to SoHabr, ITnan and Google cache.
+Redirects deleted or marked as draft posts from habr.com to ITnan, СоХабр, SavePearlHarbor, and Google cache.
 
 Based on the [HabrCache](https://userscripts-mirror.org/scripts/show/136481) userscript by [dotneter](https://userscripts-mirror.org/users/138395.html). The code for working with SoHabr is kindly provided by [CaptainFlint](https://habr.com/users/CaptainFlint/).
 
