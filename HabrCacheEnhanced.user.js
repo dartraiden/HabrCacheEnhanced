@@ -2,7 +2,7 @@
 // @name            HabrCacheEnhanced
 // @description     Перенаправляет удалённые или скрытые в черновики записи с habr.com на СоХабр, ITnan и кэш Google. Redirects deleted or hidden posts from habr.com to SoHabr, ITnan and Google cache.
 // @namespace       habrcache
-// @version         20190711.1
+// @version         20191112.1
 // @author          dartraiden
 // @match           https://habr.com/*
 // @updateURL       https://github.com/dartraiden/HabrCacheEnhanced/raw/master/HabrCacheEnhanced.meta.js
@@ -16,7 +16,7 @@ if(h1.innerHTML == "Доступ к публикации закрыт" || h1.inn
 	var lnks = document.getElementsByTagName('A');
 	for (var i = 0; i < lnks.length; ++i) {
 		if (lnks[i].className == 'button')
-			lnks[i].outerHTML += '<p>&bull; <a href="https://itnan.ru/post.php?c=1&p=' + id + '">ITnan</a></p><p>&bull; <a href="https://sohabr.net/habr/post/' + id + '/">СоХабр</a></p><p>&bull; <a href="https://webcache.googleusercontent.com/search?q=cache:' + document.location.href + '">Google Cache</a></p>';
+			lnks[i].outerHTML += '<p>&bull; <a href="https://itnan.ru/post.php?c=1&p=' + id + '">ITnan</a></p><p>&bull; <a href="https://sohabr.net/habr/post/' + id + '/">СоХабр</a></p><p>&bull; <a href="https://savepearlharbor.com/?p=' + id + '">SavePearlHarbor</a></p><p>&bull; <a href="https://webcache.googleusercontent.com/search?q=cache:' + document.location.href + '">Google Cache</a></p>';
 	}
 }
 else if(h1.innerHTML == "прекратила активность на хабре" || h1.innerHTML == "no more active on Habr"){
