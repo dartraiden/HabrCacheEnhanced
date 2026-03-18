@@ -1,5 +1,5 @@
 # Russian
-Перенаправляет удалённые или скрытые в черновики записи с habr.com на зеркала Хабра.
+Перенаправляет скрытые из-за региональных ограничений, удалённые или скрытые в черновики записи с habr.com на различные зеркала.
 
 Основан на скрипте [HabrCache](https://userscripts-mirror.org/scripts/show/136481) от [dotneter](https://userscripts-mirror.org/users/138395.html). Код для работы с СоХабром любезно предоставлен [CaptainFlint](https://habr.com/users/CaptainFlint/).
 
@@ -9,10 +9,11 @@
 
 * [запись, скрытая в черновики](https://habr.com/post/423433/)
 * [запись, удалённая из блога компании](https://habr.com/company/muk/blog/255299/)
+* [запись, скрытая из-за региональных ограничений](https://habr.com/articles/731608/)
 
 
 # English
-Redirects deleted or hidden posts from habr.com to Habr mirrors.
+Redirects posts hidden due to regional restrictions, deleted, or hidden in drafts from habr.com to various mirror sites.
 
 Based on the [HabrCache](https://userscripts-mirror.org/scripts/show/136481) userscript by [dotneter](https://userscripts-mirror.org/users/138395.html). The code for working with SoHabr is kindly provided by [CaptainFlint](https://habr.com/users/CaptainFlint/).
 
@@ -22,3 +23,4 @@ Examples can be found below.
 
 * [marked as a draft](https://habr.com/post/423433/)
 * [deleted from company blog](https://habr.com/company/muk/blog/255299/)
+* [hidden due to regional restrictions](https://habr.com/articles/731608/)
