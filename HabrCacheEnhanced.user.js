@@ -2,7 +2,7 @@
 // @name            HabrCacheEnhanced
 // @description     Перенаправляет скрытые из-за региональных ограничений, удалённые или скрытые в черновики записи с habr.com на различные зеркала. Redirects posts hidden due to regional restrictions, deleted, or hidden in drafts from habr.com to various mirror sites.
 // @namespace       habrcache
-// @version         20260319.2
+// @version         20260319.3
 // @author          dartraiden
 // @match           https://habr.com/*
 // @updateURL       https://github.com/dartraiden/HabrCacheEnhanced/raw/master/HabrCacheEnhanced.meta.js
@@ -23,7 +23,8 @@
         const services = [
             { name: 'ITnan', url: `https://itnan.ru/post.php?c=1&p=${postId}` },
             { name: 'СоХабр', url: `https://sohabr.net/habr/post/${postId}/` },
-            { name: 'SavePearlHarbor', url: `https://savepearlharbor.com/?p=${postId}` }
+            { name: 'SavePearlHarbor', url: `https://savepearlharbor.com/?p=${postId}` },
+            { name: 'Archive.today', url: `https://archive.today/${currentUrl}`, target: '_blank' }
         ];
 
         // Трансформируем массив объектов в массив HTML-строк и объединяем в одну строку
